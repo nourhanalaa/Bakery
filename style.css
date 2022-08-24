@@ -1,0 +1,461 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+   
+    /* font-family:'segoe ui light'; */
+    font-family:"segoe ui light";
+    /* color: #686868; */
+   
+    font-size: 18px;
+}
+
+  
+ /* ---------------------------------------------------------------------------------------------------------- */ 
+
+
+/*Start home section */
+.home{
+    /* background-color: tomato; */
+    height: 100vh;
+    /* padding: 1px; */
+    overflow: auto;
+    background-image: url(images/drew-coffman-1872.jpg);
+    
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+
+}
+.navbar{
+    width: 100%;
+    color: white;
+    overflow: auto;
+    /* position: fixed; 
+    background-color:black;    */
+}
+.nav-img{
+    width: 170px;
+    float: left;
+    margin: 10px 70px;
+    
+}
+.navbar ul{
+    list-style-type: none;
+    overflow: auto;
+    margin-top: 10px;
+   
+}
+.navbar li{
+    padding: 10px;
+float: right ;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.fixed-box{
+    background-color:white;
+    width: 40px;
+    height: 90px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: fixed;
+    top:200px;
+    right: 0px;
+    
+    
+        
+}
+.fixed-box img{
+    width: 500px;
+    height: 50px;
+    padding: 10px;
+}
+.home-content{
+    position:absolute ;
+    top: 200px;
+    left: 200px;   
+} 
+.home-content  p{
+
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+}
+.home-content h1{
+    font-size: 78px;
+    font-family: 'Alegreya', serif;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+.home-content button{
+/* padding: 15px;
+margin: 5px;
+margin-top: 20px;
+border-radius: 4px; */
+
+padding: 15px 25px;
+    font-size: 17px;
+    border-radius: 6px;
+    margin-top: 25px;
+
+}
+.btn1{
+    background-color: #8e7754;
+    color: white;
+    border: none;
+    margin-right: 5px;
+}
+.btn1:hover{
+    background-color: white;
+    color: #000;
+}
+.btn2{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+.btn2:hover{
+    background-color:white;
+    color: #000;
+}
+
+/*End home section */
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+
+ /* Start Who we are section  */
+ .history {
+     overflow: auto;
+     padding:80px  40px;
+ }
+ .container{
+    width: 85%;
+    margin: auto;
+}
+.history-content{
+    padding: 20px;   
+}
+.history-content h2{
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+.history-content p{
+    padding-bottom: 20px;
+}
+
+ .banner{
+     float: left;
+     width: 50%;
+     padding-right: 50px;
+ }
+ .banner img{
+     
+     width: 100%;
+ }
+ .history-content .details-list ul{
+     list-style-type: none;
+ }
+
+ .history-content .details-list ul i {
+     
+    text-align: center;
+    width: 44px;
+    height: 44px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 100%;
+    line-height: 44px;
+    font-size: 20px;
+    color: #8E7754;
+    margin-bottom: 22px;
+    margin-right: 10;
+}
+
+/* End Who we are section  */
+
+ /* ---------------------------------------------------------------------------------------------------------- */
+
+/*Start our Location section */
+
+.our-location{
+   
+   overflow: auto;
+    background-color:#F8F8F8;
+     padding:90px  40px;
+   
+    
+}
+.container{
+    width: 90%;
+    margin: auto;
+   
+}
+
+.our-location-content h2{
+    font-size: 25.5px;
+    color: #000;
+    margin-bottom: 25px;
+}
+.our-location-content p{
+    margin-bottom: 20px;
+   
+}
+.our-location-content {
+   color: #686868;
+   margin-top: 80px;
+   padding-right: 60px;
+    width: 50%;
+    float: left;
+    
+}
+.our-location-img{
+    float: left;
+    width: 50%;
+}
+
+.our-location-img img{
+    width: 100%;
+}
+.clr{
+    clear: both;
+}
+
+
+/*End our Location section */
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+/* Start Our Baking section */
+.contain{
+    width: 95%;
+    margin: auto;
+   
+}
+.backing p{
+    margin-top: 17px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.backing{
+    
+overflow: auto;
+text-align: center;
+color:#303030 ;
+padding:80px  40px;
+}
+.backing h3{
+    font-size: 30px;
+
+   
+}
+ .breads{
+    
+    width: 33.3333%;
+    float: left;
+    padding: 20px;
+    text-align: center;
+   
+}
+.breads img{
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+.breads h4{
+    font-size: 22px;
+}
+/* media quary */
+
+/* End Our Baking section */
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+/* Start Contact Information section */
+ 
+.Information{
+    background-color: #F8F8F8;
+    padding:70px 40px;
+    overflow: auto;
+    
+}
+.info-content{
+    
+    float: left;
+    width: 50%;
+    /* position: relative; */
+    margin-top: 20px;
+}
+.info-content p{
+    margin-bottom: 15px;
+}
+.info-content ul{
+    list-style-type: none;
+}
+.info-content ul i {
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    background-color: #8E7754;
+    border-radius: 100%;
+    line-height: 36px;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 22px;
+    margin-right: 10px;
+}
+
+
+.map{
+  
+   /* background-color: tomato; */
+    float: right;
+    width: 50%;
+    padding-right: 40px; 
+    
+}
+.iframe{
+
+    position: relative;
+    z-index: 1;
+}
+
+.location{
+    text-align: center;
+    height: 620px;;
+   position: absolute;
+   right: 80px;
+   left: 630px;
+   
+background-color: rgba(0, 0, 0, .4);
+z-index: 10;
+} 
+.location img{
+    padding-top: 250px;
+}
+
+
+
+/* End Contact Information section */
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+/* Start About us section */
+.about{
+    background-color: #403d38;
+    color: #ffffff;
+    overflow: auto;
+    padding:70px 40px;
+    
+
+}
+.about p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #969696;
+    font-size: 16px;
+}
+.about-us {
+    width: 25%;
+    float: left;
+    padding-right: 20px;
+    
+}
+.about-us p {
+    margin-bottom: 20px;
+}
+.special{
+    width: 25%;
+    float: left;
+}
+.hours {
+    width: 25%;
+    float: left;
+}
+.Contact-Details{
+    background-image: url(images/contact-details-mapp.png);
+    width: 25%;
+    float: right;  
+    color: #969696;
+    font-size: 16px;
+}
+.Contact-Details ul li i {
+    margin-right: 5px;
+}
+
+.Contact-Details ul li {
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.Contact-Details ul {
+    list-style: none;
+    padding: 0 20px 0 0;
+    margin: 0;
+}
+
+.cont-img{
+float: left;
+padding-top: 10px;
+
+padding-right: 10px;
+}
+/* .cont-info{
+
+margin-bottom: 15px;
+margin-top: 15px;
+} */
+
+.clr{
+    clear: left;
+}
+.about h4{
+    margin-bottom: 30px;
+}
+hr{
+    color: #ffffff;
+    height: 2px;
+    width: 85%;
+    opacity: .1;
+}
+/* End About us section */
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+.footer{
+    background-color:#353330;
+    color: #969696;
+    text-align: center;
+    
+    padding: 50px;
+}
+.footer div {
+    padding-bottom: 20px;
+    
+}
+.footer p {
+    
+    font-size: 15px;
+    color: #686868;
+    line-height: 32px;
+}
+
+.footer .social-icons i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 8px;
+    background-color: #484540;
+    border-radius: 50px;
+}
